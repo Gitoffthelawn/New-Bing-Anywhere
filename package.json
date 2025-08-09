@@ -52,6 +52,7 @@
     "@types/webextension-polyfill": "^0.12.3",
     "@typescript-eslint/eslint-plugin": "^8.39.0",
     "@typescript-eslint/parser": "^8.39.0",
+    "bun": "^1.2.19",
     "copy-and-watch": "^0.1.8",
     "eslint": "^9.33.0",
     "eslint-plugin-prettier": "^5.5.4",

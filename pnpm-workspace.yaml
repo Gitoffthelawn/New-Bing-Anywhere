@@ -6,4 +6,5 @@ packages:
 
 onlyBuiltDependencies:
   - '@swc/core'
+  - bun
   - esbuild
