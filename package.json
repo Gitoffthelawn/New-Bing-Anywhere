@@ -76,8 +76,5 @@
     "vite-plugin-css-injected-by-js": "^3.5.2",
     "vite-plugin-imp": "^2.4.0"
   },
-  "engines": {
-    "bun": "^1.0.3"
-  },
-  "extensionName": "New Bing Anywhere (Bing Chat GPT-4)"
+  "extensionName": "New Bing Anywhere (Bing Chat GPT-5)"
 }
