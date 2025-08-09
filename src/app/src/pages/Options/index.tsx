@@ -37,6 +37,7 @@ const content3 = isChinese ? (
 const content4 = 'It may cause Bing to malfunction. If you encounter any issues, please disable it.'
 
 const App: React.FC = () => {
+  return 1111111
   useTitle('Options')
   const [form] = Form.useForm()
   const [config, setConfig] = useConfig()

@@ -6,7 +6,7 @@ import React, { PropsWithChildren, FC } from 'react'
 // import router from '@/routers'
 import { ConfigProvider } from 'antd'
 // import { useEffect } from 'react'
-// import { RouterProvider } from 'react-router-dom'
+// import { RouterProvider } from 'react-router'
 
 const I18nApp: FC<PropsWithChildren> = (props) => {
   return <ConfigProvider locale={zhCN}>{props.children}</ConfigProvider>
