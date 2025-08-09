@@ -25,7 +25,7 @@ const App = () => {
       setLocationUrl(location.href)
     }
     const evtTypes = ['popstate', 'hashchange']
-    for (let evtType of evtTypes) {
+    for (const evtType of evtTypes) {
       window.addEventListener(evtType, listener)
     }
 
@@ -35,7 +35,7 @@ const App = () => {
     }
     loop()
     return () => {
-      for (let evtType of evtTypes) {
+      for (const evtType of evtTypes) {
         window.removeEventListener(evtType, listener)
       }
     }
