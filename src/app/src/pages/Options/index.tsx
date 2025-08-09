@@ -1,11 +1,21 @@
+// import useConfirm from 'global/hooks/useConfirm'
+// import useTitle from 'global/hooks/useTitle'
+// import useConfig, { type Config } from 'global/hooks/useConfig'
+// import { isChinese, isFirefox } from '@ha0z1/extension-utils'
+// import { ExclamationCircleOutlined } from '@ant-design/icons'
+// import { Form, Tooltip, message } from 'antd'
+// import React, { useEffect, useState } from 'react'
+// import useSWR from 'swr'
+// import Switch from './Switch'
+// import s from './options.module.styl'
+
+import { ExclamationCircleOutlined } from '@ant-design/icons'
+import { isChinese, isFirefox } from '@ha0z1/extension-utils'
+import { Form, Tooltip, message } from 'antd'
+import useConfig, { type Config } from 'global/hooks/useConfig'
 import useConfirm from 'global/hooks/useConfirm'
 import useTitle from 'global/hooks/useTitle'
-import useConfig, { type Config } from 'global/hooks/useConfig'
-import { isChinese, isFirefox } from '@ha0z1/extension-utils'
-import { ExclamationCircleOutlined } from '@ant-design/icons'
-import { Form, Tooltip, message } from 'antd'
-import React, { useEffect, useState } from 'react'
-import useSWR from 'swr'
+import React from 'react'
 import Switch from './Switch'
 import s from './options.module.styl'
 
@@ -37,7 +47,7 @@ const content3 = isChinese ? (
 const content4 = 'It may cause Bing to malfunction. If you encounter any issues, please disable it.'
 
 const App: React.FC = () => {
-  return 1111111
+  return 1111
   useTitle('Options')
   const [form] = Form.useForm()
   const [config, setConfig] = useConfig()

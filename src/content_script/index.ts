@@ -1,12 +1,12 @@
 import { callBackground, getURL, isChinese } from '@ha0z1/extension-utils'
-import { checkIsGoogle, checkIsBing } from 'global/check'
+import { checkIsBing, checkIsGoogle } from 'global/check'
 import { getConfig } from 'global/config'
 import $ from 'jquery'
 import { extensionName } from '../../package.json'
+import offscreenHandler from '../offscreen/content'
 import bingHandler from './bing-handler'
 import chatHandler from './chat-handler'
 import googleHandler from './google-handler'
-import offscreenHandler from '../offscreen/content'
 
 const isInIframe = window !== top
 ;(async ($) => {

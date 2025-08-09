@@ -1,7 +1,7 @@
 import fs from 'fs-extra'
+import type { DeclarativeNetRequest } from 'webextension-polyfill'
 import { ALL_RESOURCE_TYPES, BING, FULL_VERSION, MAIN_VERSION } from '../global/constants'
 import { chromiumDir } from './_config'
-import type { DeclarativeNetRequest } from 'webextension-polyfill'
 
 const MODIFY_HEADERS = 'modifyHeaders'
 const REDIRECT = 'redirect'

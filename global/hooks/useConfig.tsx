@@ -1,5 +1,5 @@
-import React, { useEffect, useState, createContext, useContext } from 'react'
-import { getConfig as getConfigUtil, setConfig as setConfigUtil, defaultConfig, type Config } from '../config'
+import React, { createContext, useContext, useEffect, useState } from 'react'
+import { getConfig as getConfigUtil, setConfig as setConfigUtil, type Config } from '../config'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const ConfigContext = createContext(null as unknown as [Config, (newConfig: Partial<Config>) => void])

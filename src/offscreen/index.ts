@@ -1,5 +1,5 @@
-import { addBackgroundListener, callBackground } from '@ha0z1/extension-utils'
-import { Types as LlamasTypes, methods as LlamasMethods } from '@ha0z1/llama-apis'
+import { addBackgroundListener } from '@ha0z1/extension-utils'
+import { Types as LlamasTypes } from '@ha0z1/llama-apis'
 
 const s = new URLSearchParams(location.search)
 const url: Record<string, string> = JSON.parse(s.get('url')!)

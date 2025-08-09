@@ -1,5 +1,5 @@
-import genUA from 'global/genUA'
 import { MAIN_VERSION } from 'global/constants'
+import genUA from 'global/genUA'
 
 try {
   const ua = genUA()

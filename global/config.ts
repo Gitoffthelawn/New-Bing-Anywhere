@@ -1,8 +1,8 @@
-import browser from 'webextension-polyfill'
 import { merge } from 'lodash-es'
-import { type Config, type ILanguage, Languages, TriggerMode, Sites, LlamasTypes } from './types/_config'
+import browser from 'webextension-polyfill'
+import { type Config, type ILanguage, Languages, LlamasTypes, Sites, TriggerMode } from './types/_config'
 
-export { type Config, Sites, TriggerMode }
+export { Sites, TriggerMode, type Config }
 
 const CONFIG_KEY = 'configV3'
 

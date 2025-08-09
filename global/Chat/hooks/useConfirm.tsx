@@ -1,7 +1,6 @@
-import React from 'react'
 import { ExclamationCircleOutlined } from '@ant-design/icons'
-import { Modal, ModalFuncProps, Button } from 'antd'
-import { useCallback } from 'react'
+import { Button, Modal, ModalFuncProps } from 'antd'
+import React, { useCallback } from 'react'
 
 export default () => {
   const [modal, modalContextHolder] = Modal.useModal()

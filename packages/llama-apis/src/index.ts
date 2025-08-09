@@ -1,7 +1,7 @@
+export { Types, type default as IApis, type IMessage } from './abstract'
+export { default as Bing } from './Bing'
 export { default as Chatgpt } from './Chatgpt'
 export { default as Claude } from './Claude'
-export { default as Bing } from './Bing'
-export { type default as IApis, Types, type IMessage } from './abstract'
 
 export const methods: ('createConversation' | 'sendPrompt' | 'deleteConversation')[] = [
   'createConversation',

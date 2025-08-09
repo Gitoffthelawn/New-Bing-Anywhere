@@ -2,9 +2,9 @@ import { getSiteType } from 'global/check'
 import { Sites, type Config } from 'global/config'
 
 import $ from 'jquery'
+import { throttle } from 'lodash-es'
 import { $shadowRootWrap, initApp } from './ChatApp'
 import { $w, mutationConfig } from './_utils'
-import { throttle } from 'lodash-es'
 
 // const qsStringify = (qs: Record<string, string>) => {
 //   for (const key in qs) {

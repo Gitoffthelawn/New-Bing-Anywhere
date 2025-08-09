@@ -1,6 +1,6 @@
-import { LlamasTypes, type Sites } from './_config'
-export { type ILanguage, Languages, Sites, type Config } from './_config'
 import { IMessage } from '@ha0z1/llama-apis/src'
+import { LlamasTypes, type Sites } from './_config'
+export { Languages, Sites, type Config, type ILanguage } from './_config'
 
 export type Content = Required<IMessage['msg']>
 export interface CorePageData {

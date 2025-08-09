@@ -1,5 +1,5 @@
 import { ExclamationCircleOutlined } from '@ant-design/icons'
-import { Modal, ModalFuncProps, Button } from 'antd'
+import { Button, Modal, ModalFuncProps } from 'antd'
 import { useCallback } from 'react'
 
 export default () => {

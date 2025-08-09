@@ -1,7 +1,7 @@
-import path from 'path'
-import { fileURLToPath } from 'url'
 import crypto from 'crypto'
+import path from 'path'
 import sortPackageJson from 'sort-package-json'
+import { fileURLToPath } from 'url'
 
 export const __dirname = fileURLToPath(new URL('.', import.meta.url))
 export const root = path.join(__dirname, '..')

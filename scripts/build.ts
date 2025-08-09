@@ -1,8 +1,8 @@
 import fs from 'fs-extra'
+import buildApp from './_build_app'
 import buildEntry from './_build_entry'
 import buildManifest from './_build_manifest'
 import buildStatic from './_build_static'
-import buildApp from './_build_app'
 import { chromiumDir, dist, edgeDir, firefoxDir } from './_config'
 import buildStaticRules from './static_rules'
 

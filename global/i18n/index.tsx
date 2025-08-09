@@ -2,7 +2,7 @@
 // import ru_RU from 'antd/locale/ru_RU'
 import zhCN from 'antd/locale/zh_CN'
 // import zhTW from 'antd/locale/zh_TW'
-import React, { PropsWithChildren, FC } from 'react'
+import React, { FC, PropsWithChildren } from 'react'
 // import router from '@/routers'
 import { ConfigProvider } from 'antd'
 // import { useEffect } from 'react'

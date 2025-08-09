@@ -1,11 +1,11 @@
-import React from 'react'
-import s from './links.module.styl'
-import { useSelector } from 'react-redux'
 import { getURL } from '@ha0z1/extension-utils'
-import { AppState } from '../../store'
-import useConfig from '../../../hooks/useConfig'
 import { Tooltip } from 'antd'
 import DefaultImage from 'global/components/DefaultImage'
+import React from 'react'
+import { useSelector } from 'react-redux'
+import useConfig from '../../../hooks/useConfig'
+import { AppState } from '../../store'
+import s from './links.module.styl'
 
 const fallbackIcon = chrome.runtime.getURL('/images/web.svg')
 export default () => {

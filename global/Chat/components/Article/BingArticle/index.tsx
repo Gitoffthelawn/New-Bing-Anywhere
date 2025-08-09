@@ -1,16 +1,15 @@
 import { type IMessage } from '@ha0z1/llama-apis'
-import React, { useCallback, useEffect, useMemo } from 'react'
+import React, { useCallback, useMemo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import useSWR from 'swr'
 
+import { callBackground } from '@ha0z1/extension-utils/src'
 import { genLLamaApis } from 'global/Chat/apis'
 import { AppDispatch, AppState } from 'global/Chat/store'
 import appSlice from 'global/Chat/store/app.slice'
 import useConfig from 'global/hooks/useConfig'
 import useProps from 'global/hooks/useProps'
 import { LlamasTypes } from 'global/types/_config'
-import { callBackground } from '@ha0z1/extension-utils/src'
-import idmp from 'idmp'
 
 export default () => {
   const dispatch = useDispatch<AppDispatch>()

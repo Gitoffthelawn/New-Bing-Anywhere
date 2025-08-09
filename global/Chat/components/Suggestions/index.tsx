@@ -1,8 +1,8 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
+import { Sites } from '../../../types'
 import { AppState } from '../../store'
 import s from './suggestions.module.styl'
-import { Sites } from '../../../types'
 
 const MAX = 6
 export default () => {

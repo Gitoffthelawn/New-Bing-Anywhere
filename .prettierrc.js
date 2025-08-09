@@ -11,5 +11,7 @@ module.exports = {
   semi: false,
   // For ES5, trailing commas cannot be used in function parameters; it is counterintuitive
   // to use them for arrays only
-  trailingComma: 'none'
+  trailingComma: 'none',
+
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss', 'prettier-plugin-lint-md']
 }

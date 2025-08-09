@@ -1,5 +1,5 @@
-import { FULL_VERSION, GOOGLE_DOMAINS, MAIN_VERSION, YANDEX_DOMAINS } from './constants'
 import { Sites } from 'global/types/_config'
+import { GOOGLE_DOMAINS, YANDEX_DOMAINS } from './constants'
 export const checkIsGoogle = (hostname = location.hostname): boolean => {
   return GOOGLE_DOMAINS.includes(hostname.replace(/^www\./, ''))
 }

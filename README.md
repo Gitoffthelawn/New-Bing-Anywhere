@@ -25,7 +25,7 @@ An overseas IP is required if you are from mainland China or Russia.
 
 update 2023.7.6: Hong Kong IP doesn’t work either
 
-## Most people fix their problems with the following quick fixes:
+## Most people fix their problems with the following quick fixes
 
 - [Frequently Asked Questions 常见问题自查手册 (FAQ) #8](https://github.com/ha0z1/New-Bing-Anywhere/issues/8).
 - Change a Microsoft account.

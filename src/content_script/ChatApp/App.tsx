@@ -3,7 +3,7 @@ import Chat, { type IChatAppProps } from 'global/Chat'
 import { getSiteType } from 'global/check'
 import useConfig from 'global/hooks/useConfig'
 import { Sites } from 'global/types/_config'
-import React, { FC, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export { IChatAppProps }
 

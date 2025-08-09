@@ -11,8 +11,8 @@ import Suggestions from 'global/Chat/components/Suggestions'
 import { AppDispatch } from 'global/Chat/store'
 import appSlice from 'global/Chat/store/app.slice'
 import useConfig from 'global/hooks/useConfig'
-import type { Config, IChatAppProps } from 'global/types'
 import useProps from 'global/hooks/useProps'
+import type { IChatAppProps } from 'global/types'
 
 const ChatApp: FC<IChatAppProps> = (props) => {
   const dispatch = useDispatch<AppDispatch>()

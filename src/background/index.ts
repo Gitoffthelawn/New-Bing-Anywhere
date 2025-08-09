@@ -1,5 +1,4 @@
 import { addBackgroundListener, openUrlInSameTab } from '@ha0z1/extension-utils'
-import { Bing, Claude, Types, methods as llamaMethods } from '@ha0z1/llama-apis'
 // import offscreenMethods from '../offscreen'
 
 import { version } from '../../package.json'

@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
-import BingArticle from './BingArticle'
-import ChatgptArticle from './ChatgptArticle'
 import useConfig from 'global/hooks/useConfig'
 import { LlamasTypes } from 'global/types/_config'
+import React from 'react'
+import BingArticle from './BingArticle'
+import ChatgptArticle from './ChatgptArticle'
 
 export default () => {
   const [config] = useConfig()

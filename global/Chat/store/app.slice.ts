@@ -1,7 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { CorePageData } from 'global/types'
+import { CorePageData, type Content, type IChatAppProps } from 'global/types'
 import { LlamasTypes } from 'global/types/_config'
-import { type IChatAppProps, type Content } from 'global/types'
 
 interface AppData {
   props: IChatAppProps

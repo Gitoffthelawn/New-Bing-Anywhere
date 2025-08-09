@@ -1,7 +1,7 @@
 import type Apis from '../abstract'
 import { IMessage, ISendPrompt, Types } from '../abstract'
 import { createPrompt } from './_createPrompt'
-import { createSession, createWebsocket, sendMessage, type Session, type Type1Data, type Type2Data } from './_utils'
+import { createSession, sendMessage, type Session, type Type1Data, type Type2Data } from './_utils'
 
 const ping = (ws: WebSocket) => {
   ws.send(JSON.stringify({ type: 6 }) + '\x1e')

@@ -1,13 +1,10 @@
-import React from 'react'
-import s from './header.module.styl'
-import { Button, Spin, Tooltip } from 'antd'
-import PureButton from 'global/components/PureButton'
 import { BugOutlined, LinkOutlined, ReloadOutlined, SettingOutlined } from '@ant-design/icons'
-import { LlamasTypes } from '../../../types/_config'
-import { useDispatch } from 'react-redux'
-import { AppDispatch } from '../../store'
-import appSlice from '../../store/app.slice'
+import { Tooltip } from 'antd'
+import PureButton from 'global/components/PureButton'
 import useConfig from 'global/hooks/useConfig'
+import React from 'react'
+import { LlamasTypes } from '../../../types/_config'
+import s from './header.module.styl'
 
 const logo = chrome.runtime.getURL('/images/bing_48x48.png')
 

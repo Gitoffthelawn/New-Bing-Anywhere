@@ -1,5 +1,5 @@
 import { $w, callBackground, escapeHtml, isEdge } from '@ha0z1/extension-utils'
-import { getConfig, setConfig } from 'global/config'
+import { getConfig } from 'global/config'
 import $ from 'jquery'
 import { mutationConfig, openUrlInSameTab } from './_utils'
 

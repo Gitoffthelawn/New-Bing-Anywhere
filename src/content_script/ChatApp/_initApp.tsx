@@ -1,9 +1,9 @@
+import { ConfigProvider } from 'global/hooks/useConfig'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import css from './.shadow.css?inline'
 import ContentApp from './App'
 import { $shadowAppRoot, shadowRoot } from './_shadowRoot'
-import { ConfigProvider } from 'global/hooks/useConfig'
 
 export default () => {
   // root.id = 'app'
