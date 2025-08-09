@@ -1,8 +1,8 @@
 import { InfoCircleOutlined, ReloadOutlined, SettingOutlined } from '@ant-design/icons'
-import { isBrave, isChinese } from '@ha0z1/extension-utils'
+import { isBrave } from '@ha0z1/extension-utils'
 import { Tooltip } from 'antd'
 import PureButton from 'global/components/PureButton'
-import { AIPLUS, version } from 'global/constants'
+import { version } from 'global/constants'
 import contextMenus from 'global/contextMenus'
 import s from './popup.module.styl'
 
@@ -46,16 +46,6 @@ export default () => {
         </ul>
         <hr className={s.hr} />
         <footer className={s.footer}>
-          <a
-            href="#"
-            onClick={(e) => {
-              e.preventDefault()
-              window.open(`${AIPLUS}?invite_code=b90e84b5`)
-            }}
-            className={s.ad}
-          >
-            {isChinese ? <Tooltip title="不限 IP 免封号">高性价比的 GPT-4</Tooltip> : null /*'Fast and affordable GPT-4'*/}
-          </a>
           {isBrave && (
             <Tooltip
               title={
